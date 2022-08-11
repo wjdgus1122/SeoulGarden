@@ -1,0 +1,61 @@
+.section_6{
+    padding: 240px 100px;
+    background-color: white;
+}
+
+.s_wrap_4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_select{
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.s_wrap_4 a{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    color: white;
+}
+
+.c_img_cover{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.c_select:hover .c_img_cover{
+    display: flex;
+}
+
+.s_wrap_4 .c_select:first-child{
+    background-image: url(../img/open.jpg);
+}
+
+.s_wrap_4 .c_select:nth-child(2){
+    background-image: url(../img/hosu.jpg);
+}
+
+.s_wrap_4 .c_select:nth-child(3){
+    background-image: url(../img/seupji-1.jpg);
+}
+
+.s_wrap_4 .c_select:last-child{
+    background-image: url(../img/green_bg-1.jpg);
+}

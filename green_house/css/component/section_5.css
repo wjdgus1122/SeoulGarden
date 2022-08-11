@@ -1,0 +1,158 @@
+.flex_5_1{
+    display: flex;
+    justify-content: center;
+}
+.barcel, .sanfran, .rome, .atene{
+    padding: 33px 9px 10px 9px;
+}
+.barcel h3, .sanfran h3, .rome h3, .atene h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #4DC3B6;
+    margin-bottom: 10px;
+}
+.barcel h5, .sanfran h5, .rome h5, .atene h5{
+    font-size: 14px;
+    font-weight: 300;
+    color: #4DC3B6;
+    margin-bottom: 40px;
+}
+.barcel p, .sanfran p, .rome p, .atene p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #707070;
+    line-height: 20px;
+}
+.barcel h6, .sanfran h6, .rome h6, .atene h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+    float: right;
+    margin-top: 30px;
+}
+.dragon-text, .olive-text, .yaja-text{
+    padding: 30px 9px 10px 9px;
+}
+.dragon-text h3, .olive-text h3, .yaja-text h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #4DC3B6;
+    margin-bottom: 38px;
+}
+.dragon-text h6, .olive-text h6, .yaja-text h6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #4DC3B6;
+    margin-bottom: 10px;
+}
+.dragon-text p, .olive-text p, .yaja-text p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+    line-height: 20px;
+    /* margin-bottom: 10px; */
+}
+/* ================== */
+.barcel h6{
+    margin-top: 35px;
+}
+.barcel{
+    border-right: none;
+}
+.textline{
+    width: 670px;
+    background-color: white;
+    border-right: none;
+}
+.textline h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 1px #E1E1E1;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.textline h2{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 1px #E1E1E1;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.sanfran{
+    width: 530px;
+}
+.sanfran h6{
+    margin-top: 55px;
+}
+/* =================== */
+.flex_5_2{
+    display: flex;
+    justify-content: space-between;
+}
+.dragon{
+    display: flex;
+}
+.bg-dragon{
+    border: none;
+    background-color: gray;
+    background-image: url(../../img/dragon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.dragon-text{
+    border-top: none;
+}
+.rome{
+    border-top: none;
+    border-bottom: none;
+}
+.rome h6{
+    margin-top: 17px;
+}
+/* ================ */
+.flex_5_3{
+    display: flex;
+    justify-content: right;
+}
+.bg-olive{
+    /* float: right; */
+    border: none;
+    background-color: gray;
+    background-image: url(../../img/olive.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* ---------------------- */
+.flex_5_4{
+    display: flex;
+    justify-content: right;
+}
+.bg-yaja{
+    border: none;
+    background-color: gray;
+    background-image: url(../../img/yaja.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.atene{
+    border-left: none;
+    border-right: none;
+}
+.atene h6{
+    margin-top: 15px;
+}
+.olive-text{
+    border-top: none;
+}
+/* --------------------- */
+.yaja-text{
+    border-top: none;
+    margin-left: 668px;
+}

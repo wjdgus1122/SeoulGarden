@@ -1,0 +1,55 @@
+footer{
+    background-color:#5a5a5a ;
+    padding: 50px 220px;
+}
+
+
+.ft_top_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.ft_logo{
+    width: 137px;
+    height: 36px;
+    background-image: url(../../hd_ft_img/ft_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ft_menu_wrap{
+    display: flex;
+}
+
+.ft_menu{
+    color: white;
+    margin-left: 15px;
+    font-size: 14px;
+    display: block;
+}
+
+.ft_bottom_wrap{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.ft_seoul{
+    width: 154px;
+    height: 30px;
+    background-image: url(../../hd_ft_img/ft_seoul.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ft_left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}

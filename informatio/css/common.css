@@ -1,0 +1,47 @@
+header{
+    padding: 25px 220px;
+}
+
+section{
+    padding: 0 22.72727vw;
+}
+
+footer{
+    padding: 50px 220px;
+}
+
+
+h1{
+    font-size: 34px;
+    font-weight: bold;
+    color: #707070;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #707070;
+}
+
+p, li{
+    font-size: 18px;
+    font-weight: 100;
+    color: #707070;
+    line-height: 25px;
+}
+
+@media screen and (max-width:1000px) {
+    header, footer{
+        padding: 15px 20px;
+    }
+    section{
+        padding: 0 20px;
+    }
+}
+
+
+input{
+    display: none;
+}
+
+

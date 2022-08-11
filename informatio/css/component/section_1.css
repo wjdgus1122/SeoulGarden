@@ -1,0 +1,82 @@
+.section_1{
+    margin-top: 150px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.time_wrap{
+    margin-top: 50px;
+}
+
+/* .time_table_1{
+    width: 100%;
+    height: 200px;
+    margin: 15px 0;
+    background-image: url(../../img/time.png);
+    background-repeat: no-repeat;
+} */
+
+
+.time_wrap img{
+    margin: 15px 0;
+}
+
+.price_wrap{
+    margin: 50px 0;
+}
+
+.price_wrap h3{
+    margin-bottom: 10px;
+}
+.price_wrap img{
+    margin: 15px 0 10px 0;
+}
+
+.price_wrap li{
+    font-size: 12px;
+    opacity: 0.7;
+    line-height:15px;
+}
+
+.notice{
+    display: flex;
+    justify-self: left;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.notice_icon{
+    width: 25px;
+    height: 25px;
+    background-image: url(../../img/notice.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.notice h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #e46c0a;
+    margin: 0 0 5px 10px;
+}
+
+.n_title{
+    margin-bottom: 10px;
+}
+
+.n_subtitle{
+    margin-left: 10px;
+}
+
+.n_cpt{
+    margin-left: 20px;
+    line-height: 35px;
+}
+
+.n_cpt span{
+    font-weight: 500;
+}

@@ -1,0 +1,194 @@
+
+
+.right{
+    display: flex;
+    justify-content: center;
+}
+.im_wrap{
+    width: 597px;
+    height: 570px;
+}
+.right .im_wrap{
+    margin-right: 119px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.title{
+    font-size: 50px;
+    color: #303030;
+    font-weight: 700;
+    margin-top: 80px;
+
+}
+.s_title{
+    font-size: 25px;
+    font-weight: 300;
+    color: #d9d9d9;
+    margin-bottom: 40px;
+    line-height: 33px;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: 100;
+    color: #707070;
+    margin-bottom: 75px;
+    line-height: 33px;
+}
+.right .text{
+    text-align: right;
+}
+
+.line{
+    width: 35px;
+    height: 7px;
+    border: none;
+    background-color: #606060;
+    margin-bottom: 24px;
+}
+
+.right .line{
+    margin-left: 86px;
+}
+
+.sort{
+    font-size: 22px;
+    font-weight: 500;
+    color: #303030;
+    margin-top: 24px;
+}
+.sort div:last-child{
+    line-height: 25px;
+}
+.right .sort{
+    text-align: right;
+}
+
+.img_wrap{
+    width: 585px;
+    height: 570px;
+    position: relative;
+    right: 33px;
+}
+
+.img_box{
+    width: 500px;
+    height: 547px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right .img_box{
+    position: absolute;
+    right: 0;
+}
+
+.img_1{
+    background-image: url(../../img/olive.jpg);
+}
+.right .e_title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #d9d9d9;
+    width: 485px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 22px;
+    bottom: 0;
+    line-height: 100px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    padding-left: 41px;
+}
+/* right end */
+.left{
+    margin-top: 240px;
+    display: flex;
+}
+
+.left .img_wrap{
+    left: 33px;
+}
+
+.left .im_wrap{
+    margin-left: 119px;
+}
+
+.img_2{
+    background-image: url(../../img/bao.jpg);
+}
+.left .e_title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #d9d9d9;
+    width: 485px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    right: 22px;
+    bottom: 0;
+    text-align: right;
+    line-height: 100px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    padding-right: 41px;
+}
+
+.left_padding{
+    padding-top: 25px;
+}
+.left .line{
+    margin-right: 86px;
+}
+/* left end */
+/* section_1 end */
+
+.img_3{
+    background-image: url(../../img/dragon.jpg);
+}
+
+.img_4{
+    background-image: url(../../img/yaja.jpg);
+}
+
+/* section_2 end */
+.img_5{
+    background-image: url(../../img/gigantea.jpg);
+}
+.img_6{
+    background-image: url(../../img/pang.jpg);
+}
+
+.under{
+    width: 650px;
+    height: 45px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-chevron-left{
+    font-size: 24px;
+    color: #dbdbdb;
+}
+
+.un{
+    width: 400px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.un li:first-child{
+    font-weight: 900;
+}
+
+
+.fa-chevron-right{
+    font-size: 24px;
+    color: #dbdbdb;
+}
+

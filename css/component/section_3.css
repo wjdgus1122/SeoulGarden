@@ -1,0 +1,134 @@
+.section_3{
+    padding: 150px 220px;
+}
+
+.container_3{
+    height: 2000px;
+}
+
+.top_con_3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_3{
+    height: 380px;
+    margin-left: 50px;
+}
+
+.text_3 p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #8d8d8d;
+    margin-bottom: 10px;
+}
+
+.text_3 h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.text_3 h2{
+    width: 35%;
+    font-size: 24px;
+    font-weight: 500;
+    color: #808080;
+    line-height: 40px;
+}
+.top_con_3{
+    position: relative;
+}
+.con_box_3{
+    height: 700px;
+    width: 620px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.center_3{
+    background-image: url(../../img/center_onsil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;   
+    right: 0;
+    top: 0;
+}
+
+.text_box_3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    position: relative;
+    bottom: -25px;
+    left: -50px;
+}
+
+.con_text_3{
+    margin-left: 45px;
+}
+
+.con_text_3 p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #b4b4b4;
+}
+
+.con_text_3 h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #5d5d5d;
+    margin-top: 10px;
+}
+
+.arrow_3{
+    font-size: 30px;
+    color: #7d7d7d;
+    margin: 50px 20px 0 0;
+}
+
+.bottom_con_3{
+    width: 100%;
+    position: relative ;
+    top: 380px;
+    left: 0;
+}
+
+.library_3{
+    background-image: url(../../img/seed-4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    top: -185px;
+    left: 50px;
+}
+
+.photo_3{
+    background-image: url(../../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 390px;
+}
+
+.shadow_box_3{
+    width: 960px;
+    height: 668px;
+    position: relative;
+    top: 150px;
+    left: -180px;
+    opacity: 0.5;
+}
+
+.shadow_box_3 img{
+    width: 100%;
+}

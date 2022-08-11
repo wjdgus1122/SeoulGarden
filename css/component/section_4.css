@@ -1,0 +1,175 @@
+.section_4{
+    padding: 0 275px;
+    height: 750px;
+}
+
+.container_4{
+    display: flex;
+    position: relative; 
+}
+
+.title_box_4{
+    width: 68.9781%;
+    height: 375px;
+    background-color: #5e8b7e;
+    padding: 75px 65px;
+}
+
+.title_box_4 h1{
+    font-size: 60px;
+    font-weight: 700;
+    color:white ;
+    margin-bottom: 50px;
+}
+
+.title_box_4 h3{
+    font-size: 24px;
+    font-weight: 100;
+    color: #a7c4bc ;
+    letter-spacing: -3px;
+    line-height: 40px;
+}
+
+.con_box_4{
+    width: 59.85401%;
+    height: 690px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin-top: 60px;
+    position: absolute;
+    top: 0;
+    left: 550px;
+    padding: 30px 80px;
+}
+
+input{
+    display: none;
+}
+
+.menu_box_4{
+    display: flex;
+    justify-content: space-between;  
+    border-bottom: 1px solid black;
+}
+
+.menu_wrap_4 label{
+    font-size: 22px;
+    color: #d1d1d1;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.arrow_4{
+    font-size: 30px;
+    color: #7d7d7d;
+    margin-bottom: 25px;
+}
+
+.con_wrap_4{
+    padding: 30px 0;
+    position: relative;
+}
+
+.con_group_4{
+    position: absolute;
+    display: none;
+}
+
+.con_4{
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.con_img_4{
+    width: 260px;
+    height: 240px;
+    margin-right: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.show_img_1{
+    background-image: url(../../img/ex_pos_3.jpg);
+}
+
+.show_img_2{
+    background-image: url(../../img/ex_poster_1.jpg); 
+}
+
+.tour_img_1{
+    background-image: url(../../img/tour_1.jpg);
+    background-position-x: 0px;
+}
+
+.tour_img_2{
+    background-image: url(../../img/tour_2.jpg);
+}
+
+.edu_img_1{
+    background-image: url(../../img/edu_1.jpg);
+}
+
+.edu_img_2{
+    background-image: url(../../img/edu_2-1.jpg);
+}
+
+
+.text_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_4 h3{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #1d1d1d;
+}
+
+.text_4 p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #a5a5a5;
+}
+
+#show_4:checked ~ .menu_box_4 .menu_wrap_4 .menu_show_4{
+    color: #00ac62;
+}
+
+#tour_4:checked ~ .menu_box_4 .menu_wrap_4 .menu_tour_4{
+    color: #00ac62;
+}
+
+#edu_4:checked ~ .menu_box_4 .menu_wrap_4 .menu_edu_4{
+    color: #00ac62;
+}
+
+#show_4:checked ~ .con_wrap_4 .con_show_4{
+    display: block;
+}
+
+#tour_4:checked ~ .con_wrap_4 .con_tour_4{
+    display: block;
+}
+
+#edu_4:checked ~ .con_wrap_4 .con_edu_4{
+    display: block;
+}
+
+.shadow_box_4{
+    width: 35vw;
+    height: 50vh;
+    background-image: url(../../img/bg_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 0;
+    bottom: -100px;
+    z-index: -1;
+    opacity: 0.5;
+}
+

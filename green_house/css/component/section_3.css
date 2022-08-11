@@ -1,0 +1,221 @@
+.box{
+    width: 265px;
+    height: 265px;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+}
+.jacarta, .hanoi, .bogota, .sangpaulu{
+    padding: 33px 9px 10px 9px;
+}
+.jacarta h3, .hanoi h3, .bogota h3, .sangpaulu h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #E37373;
+    margin-bottom: 10px;
+}
+.jacarta h5, .hanoi h5, .bogota h5, .sangpaulu h5{
+    font-size: 14px;
+    font-weight: 300;
+    color: #E37373;
+    margin-bottom: 40px;
+}
+.jacarta p, .hanoi p, .bogota p, .sangpaulu p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #707070;
+    line-height: 20px;
+}
+.jacarta h6, .hanoi h6, .bogota h6, .sangpaulu h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+    float: right;
+    margin-top: 30px;
+}
+.bomb-text h3, .indobori-text h3, .gigantea-text h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #E37373;
+    margin-bottom: 10px;
+}
+.bomb-text h6, .indobori-text h6, .gigantea-text h6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #E37373;
+    margin-bottom: 38px;
+}
+.bomb-text p, .indobori-text p, .gigantea-text p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+    /* margin-bottom: 10px; */
+}
+/* ------------------------------- */
+.flex_3_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 809px;
+}
+.jacarta{
+    border-bottom: none;
+}
+.jacarta h6{
+    margin-top: 55px;
+}
+/* ---------------------------- */
+.flex_3_2{
+    display: flex;
+    position: relative;
+}
+.fall{
+    width: 454px;
+    height: 454px;
+    border-radius: 50%;
+    background-color: gray;
+    background-image: url(../../img/fall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -98px;
+}
+.bomb-text{
+    margin-left: 133px;
+    padding: 45px 9px 10px 9px;
+    width: 676px;
+    text-align: right;
+    border-right: none;
+}
+.bomb-text p{
+    line-height: 20px;
+}
+.bg-bomb{
+    border: none;
+    background-color: gray;
+    background-image: url(../../img/bombtree.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* ---------------------------------- */
+.flex_3_3{
+    margin-left: 93px;
+}
+.indobori-text{
+    height: 363px;
+    padding: 151px 9px 10px 9px;
+}
+.indobori-text p{
+    margin-bottom: 27px;
+    line-height: 20px;
+}
+.indobori-text h6{
+    color: #E37373;
+    margin-bottom: 7px;    
+}
+/* ---------------------------- */
+.flex_3_4{
+    margin-left: 93px;
+    display: flex;
+    position: relative;
+    z-index: 9998;
+}
+.bg-indobori{
+    border: none;
+    width: 494px;
+    background-color: gray;
+    background-image: url(../../img/indo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bogota{
+    border-left: none;
+    border-right: none;
+}
+.sangpaulu{
+    height: 625px;
+}
+.bictoria{
+    width: 670px;
+    height: 670px;
+    border-radius: 50%;
+    background-color: gray;
+    background-image: url(../../img/bictoria.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: -420px;
+}
+/* .bictoria:hover .bic_hover{
+    background-color: black;
+} */
+
+.bic_hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bic_hover:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.bictoria-text{
+    display: none;
+}
+.bic_hover:hover .bictoria-text{
+    display: block;
+    text-align: center;
+}
+.bic_hover:hover .bictoria-text h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #E37373;
+    margin-bottom: 38px;
+}
+.bic_hover:hover .bictoria-text p{
+    width: 400px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    line-height: 25px;
+    text-align: left;
+}
+.bic_hover:hover .bictoria-text h6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #E37373;
+    margin-bottom: 10px;
+}
+/* ====================== */
+.flex_3_5{
+    /* margin-left: 93px; */
+    display: flex;
+}
+.bg-gigantea{
+    border: none;
+    background-color: gray;
+    background-image: url(../../img/colocasia.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.gigantea-text{
+    width: 1035px;
+    border-left: none;
+    padding: 45px 9px 10px 9px;
+}
+.gigantea-text p{
+    line-height: 20px;
+}
+.gigantea-text h6{
+    margin-bottom: 10px;
+}
+.gigantea-text h3{
+    margin-bottom: 38px;
+}

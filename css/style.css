@@ -1,0 +1,9 @@
+@import url(reset.css);
+@import url(common.css);
+@import url(component/header.css);
+@import url(component/section_1.css);
+@import url(component/section_2.css);
+@import url(component/section_3.css);
+@import url(component/section_4.css);
+@import url(component/section_5.css);
+@import url(component/footer.css);
