@@ -17,6 +17,11 @@
 ### 에디터
 <img src="https://img.shields.io/badge/visualstudio-007ACC?style=for-the-badge&logo=visualstudio&logoColor=white">
 
+## 프로젝트를 하면서 배운점 :pencil2:
+- 처음으로 팀을 이뤄 코딩을 해보면서 어떻게 팀프로젝트를 진행하는지 배울 수 있었다.
+- 각각 맡은 페이지를 코딩하면서 컨셉에 맞는 디자인을 생각해보고 코딩하는 법을 배웠다.
+- 각 디자인에 맞게 Html과 Css와 JavaScript를 사용하여 코딩하면서 퍼블리싱 코딩방법을 배울 수 있었다.
+
 # Pages
 
 ### Header
